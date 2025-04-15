@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useContext, useEffect, useState } from 'react'
-import { shopContext } from '../context/shopContext'
+import { shopContext } from '../context/ShopContext'
 import Title from './Title';
 import ProductItem from './ProductItem';
 

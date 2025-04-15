@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { assets } from '../assets/assets'
 import { Link, NavLink } from 'react-router-dom'
-import { shopContext } from '../context/shopContext';
+import { shopContext } from '../context/ShopContext';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
