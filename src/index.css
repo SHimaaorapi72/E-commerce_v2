@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family:"Poppins", sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+a.active hr{
+    display: block;
+}
+
+
+.mobile-nav a.active{
+    background-color: black;
+    color: white;
+}
+.prata-regular {
+    font-family: Prata, serif;
+
+    font-style: normal;
+}
